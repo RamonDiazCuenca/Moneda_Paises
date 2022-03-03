@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Moneda Paises</string>
+    <!-- Nombres continentes Menú -->
+    <string name="sudamérica">Sudamérica</string>
+    <string name="norteamérica">Norteamérica</string>
+    <string name="europa">Europa</string>
+    <string name="africa">África</string>
+    <string name="asia">Asia</string>
+    <string name="oceania">Oceania</string>
+    <string name="antartida">Artantida</string>
+
+    <!-- Nombres paises descripción-->
+    <string name="argentina">Argentina</string>
+
+    <!-- Botones-->
+    <string name="atras">Atras</string>
+    <!-- Url-->
+    <string name="url"><![CDATA[Visitar conversor]]></string>
+
+</resources>

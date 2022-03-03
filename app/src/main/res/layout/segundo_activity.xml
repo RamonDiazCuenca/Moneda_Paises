@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/flagargentina">
+
+
+<TextView
+    android:id="@+id/tvtitulopais"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/argentina"
+    android:gravity="center"
+    android:textSize="60dp"/>
+
+    <TextView
+        android:id="@+id/tvmoneda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvtitulopais"
+        android:gravity="center"
+        android:text="Moneda: Peso"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/tvcapital"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvmoneda"
+        android:gravity="center"
+        android:text="Capital: Buenos Aires "
+        android:textSize="30dp" />
+
+   <!-- <ImageView
+        android:id="@+id/imgvbanderaargentina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvcapital"
+        android:src="@drawable/flagargentina"/> -->
+
+    <TextView
+        android:id="@+id/tvurl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnatras"
+        android:text="@string/url"
+        android:textSize="20dp"
+        android:textColor="@color/url"
+        android:layout_marginLeft="110dp"/>
+
+    <Button
+        android:onClick="onClickatras"
+        android:id="@+id/btnatras"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/atras"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

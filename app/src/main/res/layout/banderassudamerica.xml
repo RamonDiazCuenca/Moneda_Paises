@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+        <ImageView
+            android:id="@+id/imgargentina"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:src="@drawable/argentina"
+            android:onClick="onClickbndargentina"/>
+
+        <ImageView
+            android:id="@+id/imgbolivia"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/bolivia"/>
+
+        <ImageView
+            android:id="@+id/imgbrasil"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/brasil"/>
+
+        <ImageView
+            android:id="@+id/imgchile"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/chile"/>
+
+        </TableRow>
+
+
+    <TableRow>
+
+        <ImageView
+            android:id="@+id/imgcolombia"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:src="@drawable/colombia"/>
+
+        <ImageView
+            android:id="@+id/imgecuador"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ecuador"/>
+
+        <ImageView
+            android:id="@+id/imgguyana"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/guyana"/>
+
+        <ImageView
+            android:id="@+id/imgparaguay"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/paraguay"/>
+
+    </TableRow>
+
+
+
+        <TableRow>
+
+            <ImageView
+                android:id="@+id/imgperu"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="100dp"
+                android:src="@drawable/peru"/>
+
+            <ImageView
+                android:id="@+id/imgsurinam"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/surinam"/>
+
+            <ImageView
+                android:id="@+id/imguruguay"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/uruguay"/>
+
+            <ImageView
+                android:id="@+id/imgvenezuela"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:src="@drawable/venezuela"/>
+
+        </TableRow>
+
+    </TableLayout>-->
+
+    <LinearLayout
+        android:id="@+id/llfila1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgargentina"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:src="@drawable/argentina"
+            android:onClick="onClickbndargentina"/>
+
+        <ImageView
+            android:id="@+id/imgbolivia"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/bolivia"/>
+
+        <ImageView
+            android:id="@+id/imgbrasil"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/brasil"/>
+
+        <ImageView
+            android:id="@+id/imgchile"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/chile"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llfila2"
+        android:layout_below="@id/llfila1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imgcolombia"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:src="@drawable/colombia"/>
+
+        <ImageView
+            android:id="@+id/imgecuador"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/ecuador"/>
+
+        <ImageView
+            android:id="@+id/imgguyana"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/guyana"/>
+
+        <ImageView
+            android:id="@+id/imgparaguay"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/paraguay"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/llfila3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/llfila2"
+        android:orientation="horizontal">
+
+
+        <ImageView
+            android:id="@+id/imgperu"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="100dp"
+            android:src="@drawable/peru"/>
+
+        <ImageView
+            android:id="@+id/imgsurinam"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/surinam"/>
+
+        <ImageView
+            android:id="@+id/imguruguay"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/uruguay"/>
+
+        <ImageView
+            android:id="@+id/imgvenezuela"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:src="@drawable/venezuela"/>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

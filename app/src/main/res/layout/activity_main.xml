@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!--<LinearLayout
+        android:id="@+id/llbotonescontinentes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnsudamerica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onClickSudamerica"
+            android:text="@string/sudamérica" />
+
+        <Button
+            android:id="@+id/btnnorteamerica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/norteamérica"
+
+            />
+
+        <Button
+            android:id="@+id/btnafrica"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/africa"
+
+            />
+
+        <Button
+            android:id="@+id/btnasia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/asia"
+
+            />
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            />
+
+    </LinearLayout>-->
+
+    <TableLayout
+        android:id="@+id/tlcontinentes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btneuropa"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/europa"
+                />
+
+            <Button
+                android:id="@+id/btnoceania"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/oceania"
+                />
+
+
+            <Button
+                android:id="@+id/btnafrica"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/africa"
+                />
+
+        </TableRow>
+
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnsudamerica"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:onClick="onClickSudamerica"
+                android:text="@string/sudamérica"
+                />
+
+            <Button
+            android:id="@+id/btnantartida"
+            android:layout_width="0dp"
+                android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/antartida"
+            />
+
+            <Button
+                android:id="@+id/btnasia"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/asia"
+                />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnnorteamerica"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="@string/norteamérica"
+                />
+
+
+        </TableRow>
+
+
+    </TableLayout>
+
+
+    <LinearLayout
+        android:id="@+id/llbanderas"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tlcontinentes"
+        android:orientation="horizontal">
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>
